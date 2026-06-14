@@ -1,0 +1,8 @@
+window_type: expanding  # expanding | rolling
+rolling_window_days: 504
+rebalance_freq: W-FRI
+horizon: 5
+vol_budget: 0.10
+transaction_cost_bps: 7.5
+min_history_days: 252
+seed: 42

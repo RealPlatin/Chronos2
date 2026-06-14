@@ -1,0 +1,19 @@
+experiment_name: phase1_chronos2_vol_target
+data_config: config/data.yaml
+backtest_config: config/backtest.yaml
+forecasters:
+  - naive
+  - arima
+  - chronos2
+portfolio_strategies:
+  - chronos2_vol_target
+  - naive_vol_target
+  - equal_weight
+output_dir: results/phase1
+generate_tearsheet: true
+generate_plots: true
+fan_chart_tickers:
+  - SPY
+  - XLK
+chronos_model_id: amazon/chronos-2
+chronos_device: cpu
