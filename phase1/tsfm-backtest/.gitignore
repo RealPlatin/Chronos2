@@ -12,3 +12,4 @@ data/cache/
 .DS_Store
 dist/
 build/
+plan.md
